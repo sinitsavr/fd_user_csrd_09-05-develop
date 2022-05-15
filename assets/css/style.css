@@ -1,0 +1,103 @@
+body{
+  text-align: center;
+}
+.cards-container{
+  display: inline-block;
+  --main-color: #17a2b8;
+  text-align: center;
+  
+}
+.card-wrapper{
+  --img-size: 80px;
+  display: inline-block;
+  min-width: calc(3*var(--img-size));
+  width: 100%;
+  max-width: calc(3.5*var(--img-size));
+  border: 1px solid  var(--main-color);
+  margin: 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.card-bg-header{
+  height: calc(1.3*var(--img-size));
+  background-color: var(--main-color);
+}
+.card-content{
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: calc(0.5*var(--img-size)*-1);
+  text-transform: capitalize;
+  line-height: 1.2em;
+}
+.photo{
+  box-sizing: border-box;
+  width: var(--img-size);
+  height: var(--img-size);
+  padding: 4px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-color: white;
+  object-fit: cover;
+  object-position: top;
+}
+address{
+  padding-bottom: 0.7em;
+}
+.format-text{
+  text-transform: capitalize;
+  padding-top: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn{
+  max-width: 40%;
+}
+div.btn-wrapper{
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+}
+div button:nth-child(1) {
+  padding: 0.4em 0.8em;
+  border: 1px;
+  border-radius:5px;
+  background-color:#28A745;
+  color: aliceblue;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+div button:nth-child(2) {
+  max-width: 60%;
+  padding: 0.4em 0.8em;
+  border: 1px;
+  border-radius:5px;
+  background-color:var(--main-color);
+  color: aliceblue;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card-footer{
+  background-color: var(--main-color);
+}
+.social-icon{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fb{
+  background-image: url(./../icons/facebook-white-icon-3.jpg)
+}
+.google{
+  background-image: url(./../icons/google-g-icon-9.jpg);
+  color:white;
+}
+.twitter{
+  background-image: url(./../icons/twitter.png);
+}
