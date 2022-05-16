@@ -81,6 +81,7 @@ p{
   padding-bottom: 20px;
 }
 .card-footer{
+  padding: 10px;
   background-color: var(--main-color);
 }
 .social-icon{
